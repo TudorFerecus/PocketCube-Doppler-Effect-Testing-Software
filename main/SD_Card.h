@@ -6,7 +6,7 @@ class SD_Card
 {
   File file;
   public:
-    bool init();
+    bool init_sd();
 
     bool write_to_file(String str);
 };

@@ -1,6 +1,6 @@
 #include "SD_Card.h"
 
-bool SD_Card::init()
+bool SD_Card::init_sd()
 {
   if (!SD.begin(4))
   {
